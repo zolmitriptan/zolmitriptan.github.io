@@ -1,7 +1,7 @@
 {
   "name": "my-react",
   "version": "0.1.0",
-  "homepage": "https://zolmitriptan.github.io/Zolmitriptan.github.io",
+  "homepage": "https://Zolmitriptan.github.io/Zolmitriptan.github.io",
   "proxy": "http://localhost:5000",
   "private": false,
   "dependencies": {
