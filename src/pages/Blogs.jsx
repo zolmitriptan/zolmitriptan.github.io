@@ -1,5 +1,6 @@
 import React from 'react';
 import Article from "../components/article/Article";
+import './page.scss'
 
 function Blog() {
   return (

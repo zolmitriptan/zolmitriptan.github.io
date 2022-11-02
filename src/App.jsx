@@ -3,14 +3,17 @@ import Navbar from "./components/navbar/Navbar";
 import Comment from "./components/comment/Comment";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import {Layout} from "antd";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Navbar />
-      <Comment />
-      <Footer />
+      <Layout>
+        <Header />
+        <Navbar />
+        <Comment />
+        <Footer />
+      </Layout>
     </div>
   );
 }
