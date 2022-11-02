@@ -1,8 +1,13 @@
-import React from 'react';
+import { Layout } from 'antd';
+import './Header.scss'
 
 function Header() {
   return (
-    <h1>here is header section</h1>
+    <Layout.Header className="page-header">
+      <div className="headerLeft">left</div>
+      <div className="headerCenter">center</div>
+      <div className="headerRight">right</div>
+    </Layout.Header>
   );
 }
 
