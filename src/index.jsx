@@ -6,6 +6,7 @@ import Loading from "./components/loading/Loading";
 import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import NoPage from "./pages/NoPage";
+import Search from "./pages/Search";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="blogs" element={<Blogs />} />
+          <Route path="search" element={<Search />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

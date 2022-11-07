@@ -1,10 +1,10 @@
 import React from 'react';
 import {Link, Outlet} from "react-router-dom";
 
-function Navbar() {
+function Sidebar() {
   return (
     <div>
-      <h1>here is navbar section</h1>
+      <h1>here is sidebar section</h1>
       <nav>
         <ul>
           <li>
@@ -21,4 +21,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Sidebar;
