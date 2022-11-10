@@ -5,34 +5,46 @@
   display: flex;
   align-items: center;
   font-size: 20px;
+
+  .headerRight,
+  .headerLeft,
+  .headerCenter {
+    display: flex;
+  }
+
+  .headerRight {
+    flex: 3;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .headerLeft {
+    flex: 3;
+  }
+
+  .headerCenter {
+    flex: 6;
+    justify-content: center;
+  }
+
+  .topList {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    .link {
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .link:visited {
+      color: black;
+    }
+  }
 }
 
-.headerRight,
-.headerLeft,
-.headerCenter {
-  display: flex;
-}
 
-.headerRight {
-  flex: 3;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.headerLeft {
-  flex: 3;
-}
-
-.headerCenter {
-  flex: 6;
-  justify-content: center;
-}
-
-.topList {
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}

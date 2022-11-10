@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, Outlet} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 function Sidebar() {
   return (
@@ -15,8 +15,6 @@ function Sidebar() {
           </li>
         </ul>
       </nav>
-      <Outlet />
-      {/* rendering child components (of app): home/blog/nopage */}
     </div>
   );
 }

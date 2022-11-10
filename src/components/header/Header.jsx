@@ -13,13 +13,13 @@ function Header() {
       <div className="headerCenter">
         <ul className="topList">
           <li className="topListItem">
-            <Link to="/">HOME</Link>
+            <Link className="link" to="/">HOME</Link>
           </li>
           <li className="topListItem">
-            <Link to="/blogs">BLOGS</Link>
+            <Link className="link" to="/blogs">BLOGS</Link>
           </li>
           <li className="topListItem">
-            <Link to="/search">SEARCH</Link>
+            <Link className="link" to="/search">SEARCH</Link>
           </li>
         </ul>
       </div>

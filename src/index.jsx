@@ -23,3 +23,5 @@ root.render(
     </Suspense>
   </BrowserRouter>
 );
+
+// index page

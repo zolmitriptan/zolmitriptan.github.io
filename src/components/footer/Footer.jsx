@@ -4,7 +4,7 @@ import { Layout } from 'antd';
 function Footer() {
   return (
     <Layout.Footer className="pageFooter">
-      footer
+      <h1>footer</h1>
     </Layout.Footer>
     );
 }
