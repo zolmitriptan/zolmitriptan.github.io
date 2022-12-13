@@ -6,9 +6,10 @@ import React from "react";
 function Header() {
   return (
     <Layout.Header className="page-header">
+      <span className="headerSpace"></span>
       <div className="headerLeft">
         <img src="https://img.icons8.com/windows/64/null/007-logo.png" alt="logo"/>
-        <p>sns icons</p>
+        <h1>Khaire</h1>
       </div>
       <nav className="headerCenter">
         <ul className="topList">
@@ -24,6 +25,7 @@ function Header() {
         </ul>
       </nav>
       <div className="headerRight"><p>write  sign in</p></div>
+      <span className="headerSpace"></span>
     </Layout.Header>
   );
 }
