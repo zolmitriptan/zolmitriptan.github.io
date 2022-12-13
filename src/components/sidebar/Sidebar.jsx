@@ -1,21 +1,13 @@
 import React from 'react';
-import {Link} from "react-router-dom";
 
 function Sidebar() {
   return (
-    <div>
+    <aside>
       <h1>here is sidebar section</h1>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/blogs">Blogs</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
+      <div>
+        <h1>content</h1>
+      </div>
+    </aside>
   );
 }
 

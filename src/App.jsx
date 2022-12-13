@@ -1,5 +1,4 @@
 import React from 'react';
-import Comment from "./components/comment/Comment";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import {Layout} from "antd";
@@ -12,7 +11,6 @@ function App() {
         <Header />
         <Outlet />
         {/*rendering child components (of app): home/blog/nopage*/}
-        <Comment />
         <Footer />
       </Layout>
     </div>

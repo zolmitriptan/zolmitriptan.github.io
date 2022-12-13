@@ -8,9 +8,9 @@ function Header() {
     <Layout.Header className="page-header">
       <div className="headerLeft">
         <img src="https://img.icons8.com/windows/64/null/007-logo.png" alt="logo"/>
-        <p>left</p>
+        <p>sns icons</p>
       </div>
-      <div className="headerCenter">
+      <nav className="headerCenter">
         <ul className="topList">
           <li className="topListItem">
             <Link className="link" to="/">HOME</Link>
@@ -22,8 +22,8 @@ function Header() {
             <Link className="link" to="/search">SEARCH</Link>
           </li>
         </ul>
-      </div>
-      <div className="headerRight"><p>right</p></div>
+      </nav>
+      <div className="headerRight"><p>write  sign in</p></div>
     </Layout.Header>
   );
 }
