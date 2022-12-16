@@ -9,6 +9,7 @@ function Home() {
       <div className="banner">
         <h1>here is home page</h1>
       </div>
+      <div className="space">yep</div>
       <Sidebar />
       <Gallery />
     </div>

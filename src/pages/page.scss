@@ -3,7 +3,26 @@ html, body {
   padding: 0;
 }
 
-.mainContent {
-  width: 80%;
-  margin: 0 auto;
+body {
+  background-color: lightblue;
+
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .mainContent {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+  }
+
+  .banner {
+    height: 300px;
+  }
+
+  .space {
+    height: 1000px;
+    background-color: darksalmon;
+  }
 }
