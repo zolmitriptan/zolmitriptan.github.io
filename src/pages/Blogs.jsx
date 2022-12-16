@@ -6,7 +6,7 @@ import Comment from "../components/comment/Comment";
 
 function Blog() {
   return (
-    <div>
+    <div className="mainContent">
       <h1>here is blog page</h1>
       <Sidebar />
       <Article />

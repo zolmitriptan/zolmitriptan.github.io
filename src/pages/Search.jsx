@@ -3,7 +3,7 @@ import './page.scss'
 
 function Search() {
   return (
-    <div>
+    <div className="mainContent">
       <h1>here is search page</h1>
     </div>
   );

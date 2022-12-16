@@ -5,7 +5,7 @@ import Sidebar from "../components/sidebar/Sidebar";
 
 function Home() {
   return (
-    <div className="homePage">
+    <div className="mainContent">
       <div className="banner">
         <h1>here is home page</h1>
       </div>
