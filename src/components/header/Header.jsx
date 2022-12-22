@@ -14,11 +14,13 @@ function Header() {
 
   window.addEventListener('scroll', changeHeaderColor)
 
+  const audio = new Audio("https://open.spotify.com/embed/track/5FVd6KXrgO9B3JPmC8OPst?utm_source=oembed")
+
   return (
     <Layout.Header className={headerStatus}>
       <span className="headerSpace"></span>
       <div className="headerLeft">
-        <img src="https://img.icons8.com/windows/64/null/007-logo.png" alt="logo"/>
+        <img src="https://img.icons8.com/metro/52/null/doughnut.png" alt="logo"/>
         <h1>Khaire</h1>
       </div>
       <nav className="headerCenter">
@@ -34,7 +36,9 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <div className="headerRight"><p>write  sign in</p></div>
+      <div className="headerRight">
+        <button onClick={() => audio.play()}>play</button>
+      </div>
       <span className="headerSpace"></span>
     </Layout.Header>
   );

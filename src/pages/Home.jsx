@@ -5,13 +5,17 @@ import Sidebar from "../components/sidebar/Sidebar";
 
 function Home() {
   return (
-    <div className="mainContent">
+    <div>
       <div className="banner">
-        <h1>here is home page</h1>
+        <h1>BANNER</h1>
       </div>
-      <div className="space">yep</div>
-      <Sidebar />
-      <Gallery />
+      <div className="mainContent">
+        <div className="rightContent">
+          <div className="space">yep here's main content</div>
+          <Gallery />
+        </div>
+        <Sidebar />
+      </div>
     </div>
   );
 }
