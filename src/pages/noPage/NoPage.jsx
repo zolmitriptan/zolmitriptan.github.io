@@ -1,5 +1,5 @@
 import React from 'react';
-import './page.scss'
+import '../page.scss'
 
 function NoPage() {
   return (

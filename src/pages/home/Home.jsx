@@ -1,13 +1,15 @@
 import React from 'react';
-import Gallery from "../components/gallery/Gallery";
-import './page.scss'
-import Sidebar from "../components/sidebar/Sidebar";
+import Gallery from "../../components/gallery/Gallery";
+import '../page.scss'
+import './Home.scss'
+import Sidebar from "../../components/sidebar/Sidebar";
 
 function Home() {
   return (
-    <div>
+    <div className="homePage">
       <div className="banner">
-        <h1>BANNER</h1>
+        <div className="bannerLeft">left side</div>
+        <div className="bannerRight">right side</div>
       </div>
       <div className="mainContent">
         <div className="rightContent">

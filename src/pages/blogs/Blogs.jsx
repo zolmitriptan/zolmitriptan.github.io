@@ -1,8 +1,8 @@
 import React from 'react';
-import Article from "../components/article/Article";
-import './page.scss'
-import Sidebar from "../components/sidebar/Sidebar";
-import Comment from "../components/comment/Comment";
+import Article from "../../components/article/Article";
+import '../page.scss'
+import Sidebar from "../../components/sidebar/Sidebar";
+import Comment from "../../components/comment/Comment";
 
 function Blog() {
   return (

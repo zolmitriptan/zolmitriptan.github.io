@@ -1,0 +1,23 @@
+.homePage {
+  .banner {
+    height: 300px;
+    background-color: #69a96e;
+    display: flex;
+    justify-content: center;
+
+    .bannerLeft {
+      background-color: lightblue;
+      width: 40%;
+    }
+
+    .bannerRight {
+      background-color: bisque;
+      width: 40%;
+    }
+  }
+
+  .space {
+    height: 1000px;
+    background-color: darksalmon;
+  }
+}
