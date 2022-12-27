@@ -26,7 +26,7 @@ function Header() {
     <Layout.Header className={`page-header ${headerStatus}`}>
       <span className="headerSpace"></span>
       <div className="headerLeft">
-        <img src="https://img.icons8.com/metro/52/null/doughnut.png" alt="logo"/>
+        <img src="https://img.icons8.com/metro/60/null/doughnut.png" alt="logo"/>
         <h1>Khaire</h1>
       </div>
       <nav className="headerCenter">
