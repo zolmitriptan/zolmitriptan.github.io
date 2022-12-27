@@ -2,9 +2,12 @@ import { Layout } from 'antd';
 import './Header.scss'
 import {Link} from "react-router-dom";
 import React, {useState} from "react";
+import bgm from '../../asset/Cookie.mp3'
 
 function Header() {
   const [headerStatus, setHeaderStatus] = useState('page-header');
+  const audio = new Audio(bgm);
+  let isPlaying = false;
 
   const changeHeaderColor = () => {
     if(window.scrollY >= 300) {
@@ -14,7 +17,10 @@ function Header() {
 
   window.addEventListener('scroll', changeHeaderColor)
 
-  const audio = new Audio("https://open.spotify.com/embed/track/5FVd6KXrgO9B3JPmC8OPst?utm_source=oembed")
+  function changeMusicStatus() {
+    isPlaying? audio.pause() : audio.play()
+    isPlaying = !isPlaying;
+  }
 
   return (
     <Layout.Header className={headerStatus}>
@@ -37,7 +43,7 @@ function Header() {
         </ul>
       </nav>
       <div className="headerRight">
-        <button onClick={() => audio.play()}>play</button>
+        <button onClick={changeMusicStatus}>play</button>
       </div>
       <span className="headerSpace"></span>
     </Layout.Header>
