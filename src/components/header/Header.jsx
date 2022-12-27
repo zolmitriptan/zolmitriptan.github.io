@@ -5,14 +5,14 @@ import React, {useState} from "react";
 import bgm from '../../asset/Cookie.mp3'
 
 function Header() {
-  const [headerStatus, setHeaderStatus] = useState('page-header');
+  const [headerStatus, setHeaderStatus] = useState('');
   const audio = new Audio(bgm);
   let isPlaying = false;
 
   const changeHeaderColor = () => {
     if(window.scrollY >= 300) {
-      setHeaderStatus('page-header active')
-    } else setHeaderStatus('page-header')
+      setHeaderStatus('active')
+    } else setHeaderStatus('')
   }
 
   window.addEventListener('scroll', changeHeaderColor)
@@ -23,7 +23,7 @@ function Header() {
   }
 
   return (
-    <Layout.Header className={headerStatus}>
+    <Layout.Header className={`page-header ${headerStatus}`}>
       <span className="headerSpace"></span>
       <div className="headerLeft">
         <img src="https://img.icons8.com/metro/52/null/doughnut.png" alt="logo"/>
@@ -42,8 +42,8 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <div className="headerRight">
-        <button onClick={changeMusicStatus}>play</button>
+      <div className={`headerRight ${headerStatus}`}>
+        <button onClick={changeMusicStatus}>grab some cookies</button>
       </div>
       <span className="headerSpace"></span>
     </Layout.Header>
