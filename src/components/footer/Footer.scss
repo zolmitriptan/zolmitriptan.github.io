@@ -1,7 +1,14 @@
 .pageFooter {
   width: 100%;
   display: flex;
+  flex-direction: column;
+  gap: 10%;
   align-items: center;
   justify-content: center;
   background-color: antiquewhite;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
 }

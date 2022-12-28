@@ -5,7 +5,11 @@ import "./Footer.scss"
 function Footer() {
   return (
     <Layout.Footer className="pageFooter">
-      <h1>footer</h1>
+      <div className="footerContent">
+        <span>last updated at:</span>
+        <p>word counts:</p>
+        <p>sentence to summarize</p>
+      </div>
     </Layout.Footer>
     );
 }
