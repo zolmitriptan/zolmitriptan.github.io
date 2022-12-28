@@ -10,7 +10,7 @@ function Header() {
   let isPlaying = false;
 
   const changeHeaderColor = () => {
-    if(window.scrollY >= 300) {
+    if(window.scrollY >= 400) {
       setHeaderStatus('active')
     } else setHeaderStatus('')
   }
