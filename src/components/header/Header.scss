@@ -76,13 +76,14 @@
 }
 
 .page-header.active {
-  background-color: coral;
+  background-color: white;
 }
 
 .headerRight.active {
   button {
     color: black;
-    background-color: white;
+    background-color: #69a96e;
+    border: 1px solid #49884d;
   }
 }
 

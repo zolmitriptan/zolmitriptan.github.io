@@ -16,6 +16,7 @@ body {
     width: 80%;
     margin: 0 auto;
     display: flex;
+    color: #3d3b3b;
     background-color: white;
 
     .leftContent {
@@ -24,7 +25,6 @@ body {
 
     .sidebar {
       flex: 1;
-      background-color: white;
     }
   }
 }

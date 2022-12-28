@@ -21,9 +21,9 @@ function Sidebar() {
       <div className="sidebarContent">
         <span className="contentTitle">contacts</span>
         <div className="snsIcons">
-          <img src="https://img.icons8.com/ios-filled/40/null/twitter-circled.png" alt="twitter icon"/>
-          <img src="https://img.icons8.com/ios-filled/40/null/github.png" alt="github icon"/>
-          <img src="https://img.icons8.com/ios-glyphs/40/null/instagram-circle.png" alt="instagram icon"/>
+          <img src="https://img.icons8.com/ios-filled/30/null/twitter-circled.png" alt="twitter icon"/>
+          <img src="https://img.icons8.com/ios-filled/30/null/github.png" alt="github icon"/>
+          <img src="https://img.icons8.com/ios-glyphs/30/null/instagram-circle.png" alt="instagram icon"/>
         </div>
       </div>
     </aside>
