@@ -1,5 +1,8 @@
 .sidebar {
   display: flex;
+  position: sticky;
+  align-self: flex-start;
+  top: 90px;
   flex-direction: column;
   align-items: center;
   background-color: white;
