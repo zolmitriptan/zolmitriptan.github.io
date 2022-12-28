@@ -1,0 +1,47 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .sidebarContent {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    .contentTitle {
+      font-size: 25px;
+      margin: 5px 0;
+      font-weight: bold;
+    }
+
+    img {
+      width: 50%;
+      border-radius: 50%;
+    }
+
+    .tagList {
+      padding: 0;
+      width: 70%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 10%;
+
+      .tagItem {
+        padding: 3px 5px;
+        margin: 5px 0;
+        list-style: none;
+        border: 1px solid black;
+      }
+    }
+
+    .snsIcons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10%;
+    }
+
+  }
+}

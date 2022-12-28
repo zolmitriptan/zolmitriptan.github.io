@@ -18,13 +18,13 @@ body {
     display: flex;
     background-color: white;
 
-    .rightContent {
-      flex: 5;
+    .leftContent {
+      flex: 3;
     }
 
-    .sideBar {
-      flex: 2;
-      background-color: aquamarine;
+    .sidebar {
+      flex: 1;
+      background-color: white;
     }
   }
 }

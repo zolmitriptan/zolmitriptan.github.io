@@ -12,7 +12,7 @@ function Home() {
         <div className="bannerRight">right side</div>
       </div>
       <div className="mainContent">
-        <div className="rightContent">
+        <div className="leftContent">
           <div className="space">yep here's main content</div>
           <Gallery />
         </div>
